@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "DigiKey",
+  "classifications": [
+    "Web",
+    "Blazor",
+    "WebAssembly",
+    "MudBlazor",
+    "DigiKey"
+  ],
+  "name": "DigiKey MudBlazor Web App",
+  "shortName": "digimud",
+  "identity": "DigiKey.MudBlazor.WebApp",
+  "groupIdentity": "DigiKey.MudBlazor",
+  "description": "A project template for creating a DigiKey branded Blazor Web App with MudBlazor pre-configured",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MudBlazor.Template",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net9.0",
+          "description": ".NET 9.0"
+        }
+      ],
+      "defaultValue": "net9.0"
+    }
+  }
+}
